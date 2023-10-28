@@ -1,0 +1,39 @@
+.scoreContainer{
+    width: 260px;
+    height: 260px;
+    background-color: #FBFBFB;
+    border-radius: 5px;
+    position: relative;
+
+    .titreScore{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-weight: bold;
+    }
+
+    .circleCenter{
+        position: absolute;
+        height:136px;
+        width: 136px;
+        top: 23.5%;
+        left: 23.5%;
+        border-radius: 50%;
+        background-color: white;
+
+        .scoreText{
+            position: absolute;
+            top: 34%;
+            left: 30%;
+            width: 50px;
+            color: #74798C;
+            font-size: 10px;
+            font-weight: bold;
+    
+            .percentage{
+                color: #282D30;
+                font-size: 18px;
+            }
+        }
+    }
+}

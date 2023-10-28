@@ -1,0 +1,40 @@
+
+    .leftColumn{
+    display:flex;
+    margin-top:5%;
+
+    .upperRow{
+        .userActivity{
+            background-color: #fafafa;
+            border-radius: 5px;
+            padding: 20px;
+
+            .labels{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: 30px;
+                margin-bottom: 50px;
+
+                .title{
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+
+                .legend{
+                    color: #74798C;
+                    font-weight: 500;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 30px;
+
+                    .weight, .cal{
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 8px;
+                    }
+                }
+            }
+    }
+}
+}

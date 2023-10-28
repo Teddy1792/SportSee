@@ -1,0 +1,36 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-bottom: 50px;
+
+    .dataDisplay {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+
+        .leftColumn {
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+
+            .upperRow{
+                margin-top: 0px;
+            }
+    
+            .bottomRow {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 30px;
+            }
+        }
+
+        .rightColumn {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0px;
+        }
+    }
+}
